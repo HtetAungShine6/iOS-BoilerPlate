@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B39667EC2CAC2D2F000EDEED /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B39667EB2CAC2D2F000EDEED /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B39667AE2CABDE01000EDEED /* Boiler Plate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boiler Plate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39667EC2CAC2D2F000EDEED /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = "Boiler Plate";
 			packageProductDependencies = (
+				B39667EB2CAC2D2F000EDEED /* Alamofire */,
 			);
 			productName = "Boiler Plate";
 			productReference = B39667AE2CABDE01000EDEED /* Boiler Plate.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = B39667A52CABDE01000EDEED;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B39667EA2CAC2D2F000EDEED /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B39667AF2CABDE01000EDEED /* Products */;
 			projectDirPath = "";
@@ -148,6 +157,7 @@
 				DEVELOPMENT_TEAM = MAFKHQX2GF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Boiler Plate/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to your location even when the app is not active to provide location-based services.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -176,6 +186,7 @@
 				DEVELOPMENT_TEAM = MAFKHQX2GF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Boiler Plate/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to your location even when the app is not active to provide location-based services.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,6 +346,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B39667EA2CAC2D2F000EDEED /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B39667EB2CAC2D2F000EDEED /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B39667EA2CAC2D2F000EDEED /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B39667A62CABDE01000EDEED /* Project object */;
 }
